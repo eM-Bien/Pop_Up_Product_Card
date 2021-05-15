@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop-Up</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" media='screen and (min-width: 500px)' href="css/small.css">
+    <link rel="stylesheet" media='screen and (min-width: 768px)' href="css/medium.css">
+    <link rel="stylesheet" media='screen and (min-width: 992px)' href="css/large.css">
+    <script src="https://kit.fontawesome.com/23b727f5a2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+    <button class="trigger">kliknij mnie</button>
+
+    <div class="pop-up hide animate__animated">
+        <div class="close">
+            <i class="fas fa-times active"></i>
+        </div>
+        <div class="arrows-slider">
+            <div class="arr-prev"><i class="fas fa-chevron-left"></i></div>
+            <div class="arr-next"><i class="fas fa-chevron-right"></i></div>
+        </div>
+
+        <div class="slider">
+            <div class="product-photo1 photo-all active"></div>
+            <div class="product-photo2 photo-all"></div>
+        </div>
+
+        <div class="product-content">
+            <h2 class="product-name"></h2>
+            <div class="price">125,00 zł</div>
+            <p class="p-general">Rozmiar:</p>
+
+            <div class="size-variants">
+                <div class="size-1 border active"></div>
+                <div class="size-2 border"></div>
+                <div class="size-3 border"></div>
+            </div>
+
+            <p class="p-variant p-general">Wariant:</p>
+            <div class="color-variants">
+                <div class="color-container">
+                    <p class="p-color">Srebrny</p>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <ul class="color-list hide">
+                    <li class="color-1">Srebrny</li>
+                    <li class="color-2">Czarny</li>
+                    <li class="color-3">Biały</li>
+                </ul>
+            </div>
+
+            <div class="extra-info">
+                <div class="available">
+                    <div class="status-available">
+                        <p><i class="fas fa-check"></i>Produkt dostępny</p>
+                    </div>
+                    <div class="status-unavailable hide">
+                        <p><i class="fas fa-times"></i>Produkt niedostępny</p>
+                    </div>
+                </div>
+    
+                <div class="delivery">
+                    <img src="./img/time.svg" alt="ikona zegarka" class="time-icon">
+                    <div class="delivery-txt">
+                        <p>Możemy wysłać już dzisiaj!</p>
+                        <p class="p-delivery">Sprawdź czasy i koszty wysyłki</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="btn-down">
+                <div class="quantity">
+                    <p class="btn-decrease btn-change-number">-</p>
+                    <p class="p-number">1</p>
+                    <p class="btn-increase btn-change-number">+</p>
+                </div>
+                <button class="buy">Dodaj do koszyka</button>
+            </div>
+        </div>
+    </div>
+
+<script src="./js/data-json.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>

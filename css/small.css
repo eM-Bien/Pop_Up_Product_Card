@@ -1,0 +1,64 @@
+.trigger {
+  width: 31.8rem;
+  height: 7rem;
+  font-size: 2rem;
+}
+
+.pop-up {
+  height: 113vh;
+}
+
+.pop-up .close {
+  padding: 2.5rem;
+}
+
+.pop-up .arrows-slider {
+  padding: 0 4rem;
+}
+
+.pop-up .slider .photo-all {
+  margin: 2% 22%;
+}
+
+.pop-up .slider .product-photo2 {
+  margin-top: -37rem;
+}
+
+.pop-up .slider .extra-info .available {
+  padding: 0 1.5rem 0 0;
+}
+
+.pop-up .slider .extra-info .delivery .time-icon {
+  width: 8%;
+}
+
+.pop-up .slider .btn-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 3rem;
+}
+
+.pop-up .slider .btn-down .quantity {
+  margin-right: 4rem;
+  margin-left: 0;
+  width: 44%;
+  height: 7rem;
+}
+
+.pop-up .slider .btn-down .buy {
+  margin-right: 0;
+  width: 44%;
+  height: 7rem;
+}
+/*# sourceMappingURL=small.css.map */
